@@ -1,0 +1,45 @@
+{
+  "dataset": "dummy_plants",
+  "model": "alexnet",
+  "data_root": "C:\\Users\\Lenovo\\Desktop\\Plant disease Assignment\\data\\dummy_plants",
+  "device": "cpu",
+  "amp": false,
+  "epochs": 1,
+  "batch_size": 20,
+  "lr": 0.001,
+  "image_size": 128,
+  "num_classes": 2,
+  "class_names": [
+    "leaf_blight",
+    "leaf_spot"
+  ],
+  "accuracy": 0.5,
+  "precision_weighted": 0.25,
+  "recall_weighted": 0.5,
+  "f1_weighted": 0.3333333333333333,
+  "training_time_seconds": 9.341897964477539,
+  "parameter_count": 57012034,
+  "test_loss": 2.9052720069885254,
+  "split": {
+    "num_classes": 2,
+    "train_images": 36,
+    "val_images": 2,
+    "test_images": 2,
+    "batch_size": 20
+  },
+  "history": {
+    "train_loss": [
+      0.7019594311714172
+    ],
+    "train_acc": [
+      0.5
+    ],
+    "val_loss": [
+      2.9027795791625977
+    ],
+    "val_acc": [
+      0.5
+    ]
+  },
+  "smoke": true
+}

@@ -1,0 +1,3 @@
+dataset,model,accuracy,precision_weighted,recall_weighted,f1_weighted,training_time_seconds,parameter_count,num_classes,epochs,device,run_dir
+dummy_plants,alexnet,0.5,0.25,0.5,0.3333333333333333,9.341897964477539,57012034,2,1,cpu,C:\Users\Lenovo\Desktop\Plant disease Assignment\results\dummy_plants_alexnet
+dummy_plants,efficientnet_b3,0.5,0.25,0.5,0.3333333333333333,25.798078775405884,10901898,2,1,cpu,C:\Users\Lenovo\Desktop\Plant disease Assignment\results\dummy_plants_efficientnet_b3
